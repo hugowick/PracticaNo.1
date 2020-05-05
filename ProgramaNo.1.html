@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var nume1=Number(prompt("Ingrese el primer Numero"));//Number toma valores mas altos de cientos
+        var nume2=Number(prompt("Ingrese el Segundo Numero"));
+        var nume3=Number(prompt("Ingrese el Tercer Numero"));
+        if(nume1 ==nume2 && nume1==nume3){
+        document.write('Los tres numeros dados son iguales y valen = ' +nume1);
+        }else{
+            if(nume1>nume2 && nume1>nume3){
+                document.write('El numero ('+nume1+') es el mayor que todos, agregado a la primera vez');
+            }else{
+                if(nume2>nume1 && nume2>nume3){
+                    document.write('El numero ('+nume2+') es el mayor que todos, agregado a la segunda vez');
+                }else{
+                    document.write('El numero ('+nume3+') es el mayor que todos, agregado a la tercera vez');
+                }
+            }
+        }
+        document.write('<br />');
+        document.write('<br />Primer numero dado = '+nume1);
+        document.write('<br />');
+        document.write('<br />Segundo numero dado = '+nume2);
+        document.write('<br />');
+        document.write('<br />Tercer numero dado = '+nume3);
+        </script>
+</body>
+</html>
